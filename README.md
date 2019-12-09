@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## 欢迎光临我的 GitHub Issue 
 
-You can use the [editor on GitHub](https://github.com/frstlis/CLanguage/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+写点关于C/C++的内容，你也可以通过下面的链接，访问我的 GitHub Issue ->[editor on GitHub](https://github.com/frstlis/CLanguage/edit/master/README.md) .
 
 ### Markdown
 
