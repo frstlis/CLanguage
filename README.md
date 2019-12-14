@@ -23,6 +23,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+写博文又不是做美化，如果真的有兴趣去下面的链接去看看吧。
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
