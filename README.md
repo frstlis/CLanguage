@@ -31,4 +31,4 @@ Syntax highlighted code block
 
 本博主要还是呈现一些用法、算法、关键部位等的一些代码或者详细说明吧，有用处自然吸收给养，无用也不必力不从心亦或撞钟好了。
 
-代码写在 *frstlis* 下的 *CLanguage/Code* ,若有瑕疵或者改进，还望来个issue，万分感谢！！
+代码写在 *frstlis* 下的 *CLanguage/Code* ,若有瑕疵或者改进，还望来个issue [CLanguage](https://github.com/frstlis/CLanguage)，万分感谢！！
