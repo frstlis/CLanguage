@@ -1,6 +1,6 @@
 #  欢迎光临我的博客（Hacker） 
 
-写点关于C/C++的内容之前说一下 ** Markdown ** 吧.
+写点关于C/C++的内容之前说一下 *_Markdown_* 吧.
 
 ## Markdown 语法
 
