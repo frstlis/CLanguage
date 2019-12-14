@@ -1,4 +1,4 @@
-#  欢迎光临我的博客（Hacker） 
+#  Hacker Blog
 
 写点关于C/C++的内容之前说一下 *Markdown* 吧.
 
@@ -23,8 +23,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-写博文又不是做美化，如果真的有兴趣去下面的链接去看看吧。
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+写博文又不是做美化，如果真的有兴趣去 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) 看看吧。
 
 ## C/C++语言概述
+
