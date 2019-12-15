@@ -1,5 +1,3 @@
-```
-
 //*************************************************************************
 //* File Name: /home/frank/share/code/Matrixudg.cpp
 //* Author:stevenzdg988
@@ -666,6 +664,3 @@ int main()
 
     return 0;
 }
-
-
-```
