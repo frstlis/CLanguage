@@ -34,3 +34,13 @@ Syntax highlighted code block
 代码写在 *frstlis* 下的 *CLanguage/Code* ,若有瑕疵或者改进，还望来个issue [CLanguage](https://github.com/frstlis/CLanguage)，万分感谢！！
 
 **[注]：Code中的代码完全基于Utf-8。**
+
+人家开班第一个程序模式，我也引用一下吧，哈哈哈。
+
+```markdown
+#include <iostream>
+using namespace std;
+int main(){
+	printf("Hello C/C++!!");
+	return 0;
+}
