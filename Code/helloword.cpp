@@ -2,14 +2,14 @@
   #include <iostream>
   using namespace std;
   int main(){
-      cout<<"Hello World C++!!"<<endl;
+      cout<<"Hello C++!!"<<endl;
       return 0;
       }
 ```
 ```
   #include <stdio.h>
   int main(){
-      printf("Hello World C!!");
+      printf("Hello C!!");
       return 0;
       }
 ```
