@@ -1,9 +1,11 @@
 #include <iostream>
+
 #include <math.h>
 
 using namespace std;
 
 double hellen(float a,float b,float c){
+
 	float p;
 	double s;
 	if((a+b)>c && (a+c)>b && (b+c)>a)
@@ -18,6 +20,7 @@ double hellen(float a,float b,float c){
 }
 
 int main(){
+	
 	float x,y,z,s;
 	cin>> x>> y >> z;
 	s=hellen(x,y,z);
