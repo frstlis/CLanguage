@@ -46,3 +46,11 @@ github上分支的合并
 代码已经提交，撤销的方法是
 
 　　git reset --hard ORIG_HEAD
+
+删除本地分支：
+
+　　git branch -d dev  【git branch -参数 本地分支名称】
+
+删除远程分支：
+
+　　git push origin --delete dev  【git push origin --参数 远程分支名称】
