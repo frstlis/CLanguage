@@ -1,9 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
-
-
 int main(){
 	int a,b,sum=0;
 	cin>> a >> b;
@@ -19,6 +15,5 @@ int main(){
 		sum=a+b;
 	}
 	cout<< sum <<endl;
-		
 	return 0;
 }
