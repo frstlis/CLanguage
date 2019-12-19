@@ -1,12 +1,16 @@
+/*
+ * 排列组合挡板问题 C（N+3，3）
+ */
+
 #include <iostream>
 #include <cstdio>
-int main() {
+int main(){
     int n,x,y,z,w,i;					//x+y+z+w=n
-    while (scanf("%d",&n)!=EOF){
+    while(scanf("%d",&n)!=EOF){
         i=x=y=z=w=0;
-        for(x=0; x<=n; x++){
-            for(y=0; y<=n; y++){
-                for(z=0; z<=n; z++){
+        for(x=0;x<=n;x++){
+            for(y=0;y<=n;y++){
+                for(z=0;z<=n;z++){
 					for(w=0;w<=n;w++){
 						if(x+y+z+w==n){
 							//printf("%d %d %d %d\n",x,y,z,w);
@@ -18,6 +22,5 @@ int main() {
         }
     printf("%d",i);
     }
-    
     return 0;
 }
