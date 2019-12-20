@@ -5,7 +5,7 @@ using namespace std;
 int ans,n;
 
 void dfs(int i,int sum){
-	if(i==n+1){
+	if(i>n){
 		if(sum==100) ans++;
 		return;
 	}
