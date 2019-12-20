@@ -11,10 +11,10 @@ int main(){
         for(x=0;x<=n;x++){
             for(y=0;y<=n;y++){
                 for(z=0;z<=n;z++){
-					for(w=0;w<=n;w++){
-						if(x+y+z+w==n){
-							//printf("%d %d %d %d\n",x,y,z,w);
-							i++;
+                    for(w=0;w<=n;w++){
+                        if(x+y+z+w==n){
+                            //printf("%d %d %d %d\n",x,y,z,w);
+                            i++;
 						}
                     }
                 }
