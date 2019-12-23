@@ -5,9 +5,9 @@ struct node{
 	int ed;
 }a[100001];
 
+
 int main(){
 	int n;
-	//node a;
 	scanf("%d",&n);
 	for(int i=0;i<n;i++)
 		scanf("%d %d",&a[i].st,&a[i].ed);
