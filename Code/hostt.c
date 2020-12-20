@@ -9,7 +9,9 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-//by R.R.Eric
+/*
+*by GeekBear
+*/
 
 #define PORT 8080		//监听的端口号
 #define MAX_CONNECT 20 	//最大连接数
@@ -89,7 +91,7 @@ static void *doAccept(void * parm)
 					{
 						printf("接受连接成功！\n");
 						bzero(&thread,sizeof(thread));
-						pthread_create(&thread,NULL,doProc,(void*)connectfd);
+						pthread_create(&thread,NULL,doProc,(void*)(intptr_t)connectfd);
 					}
 				}
 			}
@@ -102,7 +104,7 @@ static void *doAccept(void * parm)
 //做协议解析 
 static void *doProc(void *data)
 {
-	int connectfd = (int)data;
+	int connectfd = (int)(intptr_t)data;
 	char *buffer = (char *)malloc(BUFFER_SIZE+1);
 	if(buffer==NULL)
 		printf("malloc return NULL!");

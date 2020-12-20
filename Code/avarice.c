@@ -7,10 +7,10 @@ struct node{
 
 
 int main(){
-	int n;
-	scanf("%d",&n);
-	for(int i=0;i<n;i++)
-		scanf("%d %d",&a[i].st,&a[i].ed);
+	int n=10000;
+	//scanf("%d",&n);
+	//for(int i=0;i<n;i++)
+	//	scanf("%d %d",&a[i].st,&a[i].ed);
 	for(int j=0;j<n;j++)
 		printf("%d %d \n",a[j].st,a[j].ed);
 	return 0;

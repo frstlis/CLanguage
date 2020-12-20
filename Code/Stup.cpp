@@ -5,7 +5,7 @@
 #include <iostream>
 #include <cstdio>
 int main(){
-    int n,x,y,z,w,v,i;					//x+y+z+w=n
+    int n,x,y,z,w,v,i,u;					//x+y+z+w=n
     while(scanf("%d",&n)!=EOF){
         i=x=y=z=w=0;
         for(x=0;x<=n;x++){
