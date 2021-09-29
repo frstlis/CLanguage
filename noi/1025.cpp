@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+/* #include<bits/stdc++.h>
 using namespace std;
 int main(){
     long int n;
@@ -18,4 +18,43 @@ int main(){
     }
     cout<<s;
     return 0;
+} */
+
+#include <iostream>
+using namespace std;
+
+struct day{
+	int g;
+	int s;
+	int c;
+}; 
+
+int main (){
+	
+	int counter;
+	cin >> counter;
+	day a[counter];
+	
+	for (int i = 0; i < counter; i++) {
+		cin >> a[i].g >> a[i].s >> a[i].c;
+	}
+	
+	int sumg = 0;
+	int sums = 0;
+	int sumc = 0;
+	int sumall = 0;
+	
+	for (int i = 0; i < counter; i++) {
+	    sumg+=a[i].g;
+
+		sums+=a[i].s;
+
+		sumc+=a[i].c;
+
+		sumall = sumall + a[i].g + a[i].s + a[i].c;
+
+	} 
+	
+	cout << sumg << " " << sums << " " << sumc << " "<< sumall; 
+	return 0;
 }
