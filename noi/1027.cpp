@@ -1,18 +1,26 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+struct {
+    int x;
+    int y;
+}a[12];
 
 int main(){
     int n;
-    int a[12]={0};
-    
+    int sum=0;
     cin>>n;
-    
-    for(int i=0;i<12;i++){
-        a[i]=n%10;
+    int i=0;
+    while(n){
+        a[i].x=n%10;
+        a[i].y=n/10;
+        n=a[i].y;
+        i++;
     }
-    for(int i=0;i<12;i++){
-        printf("%d ",a[i]);
+    for(int j=0;j<i;j++){
+        sum+=a[j].x;
     }
+    printf("%d\n",sum);
+
     return 0;
 }
