@@ -19,7 +19,6 @@ int main()
 		}
 		else
 			putchar(data[i]);
-
 		i++;
 	}
 	return 0;
