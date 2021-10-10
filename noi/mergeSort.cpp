@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-void merge_sort(int *data, int start, int end, int *result);
-void merge(int *data,int start,int end,int *result);
+void merge_sort(int* , int , int , int* );
+void merge(int* ,int ,int ,int* );
 void merge_sort(int *data, int start, int end, int *result){
     if(end - start == 1){   //如果区间中只有两个元素，则对这两个元素进行排序
         if(data[start] > data[end]){
@@ -25,12 +25,14 @@ void merge_sort(int *data, int start, int end, int *result){
     }
 }
 
-void merge(int *data,int start,int end,int *result){
+void merge(int *data,int start,int end,int *result)
+{
     int left_length = (end - start + 1) / 2 + 1;//左部分区间的数据元素的个数
     int left_index = start;
     int right_index = start + left_length;
     int result_index = start;
-    while(left_index < start + left_length && right_index < end+1){
+    while(left_index < start + left_length && right_index < end+1)
+    {
         //对分别已经排好序的左区间和右区间进行合并
         if(data[left_index] <= data[right_index])
             result[result_index++] = data[left_index++];
@@ -42,8 +44,9 @@ void merge(int *data,int start,int end,int *result){
     while(right_index < end+1)
         result[result_index++] = data[right_index++];
 }
-int main(){
-    int data[] = {9,16,7,12,20,3,10,29};
+int main()
+{
+    int data[] = {9,6,7,22,20,33,16,20};
     const int length = 8;
     int result[length];
     cout << "Before sorted:" << endl;
