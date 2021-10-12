@@ -2,9 +2,10 @@
 using namespace std;
 int main()
 {
-    int i,j,k,n,su,a[]{0};
+    long long i,j,k,n,su;
+    int a[1000]{0};
     cin>>n;
-    
+
     for(i=1;i<n;i++){
         su=0;
         k=0;
@@ -16,12 +17,11 @@ int main()
             }
         }
         if(i==su){
-            cout<<i<<" ";
-            for(int m=0;m<=k;m++)
-                cout<<a[m]<<" ";
+            printf("%lld  ",i);
+            for(int m=0;m<k;m++)
+                printf("%d ",a[m]);
+            cout<<endl;
         }
-        
-        cout<<endl;
     }
     return 0;
 }
