@@ -3,4 +3,7 @@ http://acm.hdu.edu.cn/
 https://www.luogu.com.cn/
 https://www.noi.cn/
 http://oj.noi.cn/
-http://ybt.ssoier.cn:8088/
+http://ybt.ssoier.cn:8088/	user:zeerre98988 password:zeerre98988
+
+username:zeerre98988
+password:P@ssw0rds$`
